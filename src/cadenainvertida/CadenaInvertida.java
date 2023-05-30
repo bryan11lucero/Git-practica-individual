@@ -38,6 +38,7 @@ public class CadenaInvertida {
  */
     public static String invertirCadena(String original) {
         String cadenaAInvertir = "";
+        char letra2;
         char letra;
 
         for (int i = original.length() - 1; i >= 0; i--) {
