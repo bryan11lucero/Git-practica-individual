@@ -19,6 +19,7 @@ public class CadenaInvertida {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int casos = 0;
+        int caso1;
         String resultado = "";
         String cadena = "";
         
