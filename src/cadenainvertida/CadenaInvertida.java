@@ -22,7 +22,9 @@ public class CadenaInvertida {
         int caso1;
         String resultado = "";
         String cadena = "";
-        
+        /**
+         * commit 4
+         */
         casos = sc.nextInt();
         sc.nextLine();
         for (int i = 0; i < casos; i++) {
