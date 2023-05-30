@@ -8,7 +8,6 @@ package cadenainvertida;
 import java.util.Scanner;
 
 /**
- *
  * 
  * @author Bryan Ivan Lucero Once
  */
@@ -27,7 +26,7 @@ public class CadenaInvertida {
         sc.nextLine();
         for (int i = 0; i < casos; i++) {
             cadena = sc.nextLine();
-
+            System.out.println("este es el 1 commit");
             resultado = invertirCadena(cadena);
             System.out.println(resultado);
         }
